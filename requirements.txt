@@ -1,0 +1,10 @@
+openai>=1.30.0
+httpx>=0.27.0
+# socksio is only needed if you reach the APIs through a SOCKS proxy
+# (e.g. ALL_PROXY=socks5://...). Harmless to install otherwise.
+socksio>=1.0.0
+jsonschema>=4.0.0
+python-dotenv>=1.0.0
+rich>=13.0.0
+pytest>=8.0.0
+chardet>=5.0.0

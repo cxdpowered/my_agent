@@ -1,0 +1,39 @@
+# ---- Secrets (NEVER commit) ----
+.env
+.env.*
+!.env.example
+# raw hand-off keys, plaintext — must stay local
+api.txt
+*.key
+*.pem
+
+# ---- Runtime state / generated data ----
+# data/ = SQLite state store + user memory files; logs/ = trace.jsonl and other logs
+data/
+logs/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Virtualenvs ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Editor / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
