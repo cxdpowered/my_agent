@@ -11,6 +11,9 @@ api.txt
 # data/ = SQLite state store + user memory files; logs/ = trace.jsonl and other logs
 data/
 logs/
+.demo_data/
+.demo_logs/
+demo_doc.md
 *.sqlite
 *.sqlite-wal
 *.sqlite-shm
